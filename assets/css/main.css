@@ -1,0 +1,38 @@
+.header .header__logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header .header__logo img{
+    width: 35px;
+
+}
+.nav ul{
+    display: flex;
+    gap: 16px;
+}
+.header .header__logo a{
+    color:var(--mainColor);
+}
+.header .nav a {
+    color: 101928;
+}
+.header .aurh a {
+    font-family: var(--subFont);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.header .aurh a:first-of-type{
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+}
+.header .aurh a :last-of-type{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+
+@media  (max-width: 992px) {
+
+}
