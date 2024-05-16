@@ -7,8 +7,8 @@
 }
 
 :root {
-    --mainFont:"Poppins", sans-serif;
-    --subFont:"Inter", sans-serif;
+    --mainFont: "Poppins", sans-serif;
+    --subFont: "Inter", sans-serif;
     --mainColor:#545BE8;
 
 
@@ -28,6 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 a{
     text-decoration: none;
