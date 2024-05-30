@@ -20,8 +20,13 @@ body{
 }
 
 .container{
-    width: calc(100% - 120px);
+    
+   width: calc(100% - 120px);
     margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    /*padding: 50px;*/
 
 }
 .row{
@@ -29,6 +34,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 190px
 }
 a{
     text-decoration: none;
